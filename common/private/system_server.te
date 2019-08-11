@@ -23,3 +23,6 @@ allow system_server theme_data_file:file { create_file_perms relabelto rw_file_p
 
 # App lock
 add_service(system_server, applock_service);
+
+# Long screenshot
+add_service(system_server, longshot_service)
