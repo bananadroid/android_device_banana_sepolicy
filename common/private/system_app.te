@@ -18,3 +18,7 @@ set_prop(system_app, recovery_update_prop)
 
 # /data/system access
 allow system_app system_data_file:file r_file_perms;
+
+# Allow theme_prop to be read and set by Settings
+get_prop(system_app, theme_prop)
+set_prop(system_app, theme_prop)
