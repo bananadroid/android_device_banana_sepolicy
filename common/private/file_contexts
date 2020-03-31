@@ -23,3 +23,6 @@
 
 # Themes data
 /data/system/theme(/.*)?    u:object_r:theme_data_file:s0
+
+# vbswap device for zswap
+/dev/block/vbswap0         u:object_r:swap_block_device:s0
