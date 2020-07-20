@@ -32,3 +32,6 @@ get_prop(platform_app, audio_config_prop)
 # Allow launcher app to read memory info
 r_dir_file(platform_app, config_gz)
 r_dir_file(platform_app, sysfs_zram)
+
+# DC Dimming
+allow platform_app vendor_sysfs_dc_dim:file rw_file_perms;

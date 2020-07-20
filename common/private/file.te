@@ -2,3 +2,6 @@ type adbroot_data_file, file_type, data_file_type, core_data_file_type;
 type sysfs_perdev_minors, fs_type, sysfs_type;
 
 type pocket_judge_sysfs, fs_type, sysfs_type;
+
+# DC Dimming
+type vendor_sysfs_dc_dim, fs_type, sysfs_type;
