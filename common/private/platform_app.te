@@ -7,6 +7,9 @@ hal_client_domain(platform_app, hal_lineage_fastcharge)
 # Allow FOD HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fod)
 
+# Allow exTHmUI's custom properties to be changed
+allow platform_app system_prop:property_service set;
+
 # Allow LiveDisplay HAL service to be found
 hal_client_domain(platform_app, hal_lineage_livedisplay)
 
