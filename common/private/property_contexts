@@ -1,4 +1,5 @@
 ro.build.selinux              u:object_r:exported2_default_prop:s0
+
 ro.telephony.use_old_mnc_mcc_format    u:object_r:exported3_default_prop:s0
 
 # Recovery update
@@ -7,4 +8,4 @@ persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 # Fonts
 sys.refresh_theme       u:object_r:theme_prop:s0
 
-persist.wfd.legacy.video.mode u:object_r:wfd_legacy_video_mode_prop:s0
+persist.wfd.legacy.video.mode    u:object_r:exported_system_prop:s0
