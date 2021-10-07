@@ -1,4 +1,3 @@
-type sdcard_posix, sdcard_type, sdcard_posix_contextmount_type, fs_type, mlstrustedobject;
 type pocket_judge_sysfs, fs_type, sysfs_type;
 
 # DC Dimming
