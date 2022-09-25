@@ -22,3 +22,6 @@ get_prop(system_server, backup_d2d_prop)
 
 # Global cleartext feature
 allow system_server system_exported_cleartext_prop:property_service set;
+
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
