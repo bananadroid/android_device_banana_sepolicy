@@ -15,3 +15,6 @@ persist.backup.fake-d2d                u:object_r:backup_d2d_prop:s0 exact bool
 
 # Global cleartext feature
 persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop:s0 exact int
+
+# Tethering
+persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0
