@@ -25,3 +25,6 @@ allow platform_app sysfs_zram:file r_file_perms;
 
 # Allow Seedvault to control whether system-scheduled backups act as migrations (D2D transfers)
 set_prop(platform_app, backup_d2d_prop)
+
+# Allow systemui to read audio properties for shutter sound adjustment
+get_prop(platform_app, audio_config_prop)
