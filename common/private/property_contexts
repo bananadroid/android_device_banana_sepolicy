@@ -28,5 +28,8 @@ persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
 
+# WiFi
+wifi.interface.                        u:object_r:wifi_hal_prop:s0 prefix string
+
 # Wi-Fi Display
 media.wfd.                             u:object_r:media_wfd_prop:s0
